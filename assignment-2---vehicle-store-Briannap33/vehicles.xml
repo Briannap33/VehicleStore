@@ -1,0 +1,62 @@
+<object-stream>
+  <list>
+    <models.ElectricCar>
+      <manufacturer>
+        <manufacturerName>kia</manufacturerName>
+        <numEmployees>988</numEmployees>
+      </manufacturer>
+      <regNumber>33oo33</regNumber>
+      <model>kia444</model>
+      <cost>1000.0</cost>
+      <year>2003</year>
+      <power>120</power>
+      <secs0To60>7</secs0To60>
+      <topSpeed>665</topSpeed>
+      <torque>100.0</torque>
+      <engineKWatts>45.0</engineKWatts>
+      <range>100</range>
+    </models.ElectricCar>
+    <models.ElectricCar>
+      <manufacturer reference="../../models.ElectricCar/manufacturer"/>
+      <regNumber>33jj33</regNumber>
+      <model>toyota 444</model>
+      <cost>4884.0</cost>
+      <year>2000</year>
+      <power>120</power>
+      <secs0To60>4</secs0To60>
+      <topSpeed>534</topSpeed>
+      <torque>100.0</torque>
+      <engineKWatts>40.0</engineKWatts>
+      <range>444</range>
+    </models.ElectricCar>
+    <models.ElectricCar>
+      <manufacturer>
+        <manufacturerName>kia</manufacturerName>
+        <numEmployees>122</numEmployees>
+      </manufacturer>
+      <regNumber>4rr4</regNumber>
+      <model>kia333</model>
+      <cost>1000.0</cost>
+      <year>2020</year>
+      <power>120</power>
+      <secs0To60>4</secs0To60>
+      <topSpeed>444</topSpeed>
+      <torque>333.0</torque>
+      <engineKWatts>40.0</engineKWatts>
+      <range>234</range>
+    </models.ElectricCar>
+    <models.ElectricCar>
+      <manufacturer reference="../../models.ElectricCar[3]/manufacturer"/>
+      <regNumber>33rrr33</regNumber>
+      <model>toyota</model>
+      <cost>3434.0</cost>
+      <year>2021</year>
+      <power>234</power>
+      <secs0To60>4</secs0To60>
+      <topSpeed>333</topSpeed>
+      <torque>344.0</torque>
+      <engineKWatts>43.0</engineKWatts>
+      <range>344</range>
+    </models.ElectricCar>
+  </list>
+</object-stream>
